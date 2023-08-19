@@ -127,6 +127,12 @@ p, li {
     color: #ecf0f1;
 }
 
+.personal-interests ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .navbar {
@@ -159,6 +165,11 @@ p, li {
     .container {
         margin: 50px auto;
     }
+}
+
+.container ul {
+    padding: 0;
+    list-style-type: none;
 }
 
 .about-photo {
